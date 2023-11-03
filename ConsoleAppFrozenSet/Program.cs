@@ -23,6 +23,6 @@ Console.WriteLine();
 Console.WriteLine($"Quantidades de paises que ja venceram Copas: {campeoesMundiais.Count}");
 
 Console.WriteLine();
-Console.WriteLine("JSON com os campeos da Copa do Mundo: ");
+Console.WriteLine("JSON com os campeoes da Copa do Mundo: ");
 Console.WriteLine(JsonSerializer.Serialize(campeoesMundiais,
     new JsonSerializerOptions() { WriteIndented = true }));
